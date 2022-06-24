@@ -1,0 +1,69 @@
+#background {
+    background-image: url(./dicebg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#scoreboard {
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(168, 181, 56);
+    padding: 10px 50px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 500px;
+    border-radius: 20%;
+}
+#dice {
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: groove;
+    padding: 50px 35px 50px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(168, 181, 56);
+    font-size: 50px;
+    height: 250px;
+    margin-right: 500px;
+    border-radius: 20%;
+}
+#roll {
+    display: flex;
+    justify-content: center;
+}
+#rollBtn {
+    background-color: rgb(168, 181, 56);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    border: groove;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20%;
+}
+#message {
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(168, 181, 56);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    text-align: center;
+    border-radius: 20%;
+
+}
+#rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
